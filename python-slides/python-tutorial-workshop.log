@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  3 JUL 2019 14:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  3 JUL 2019 15:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -896,7 +896,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout4 = `python-tutorial-workshop.vrb'.
 
  (./python-tutorial-workshop.vrb
-<ProgrammingFlow.pdf, id=272, 796.9775pt x 597.23125pt>
+<ProgrammingFlow.pdf, id=282, 796.9775pt x 597.23125pt>
 File: ProgrammingFlow.pdf Graphic file (type pdf)
 
 <use ProgrammingFlow.pdf>
@@ -940,7 +940,7 @@ LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 ) (./install-commands.txt) [6
 
 ]) (./Installation-windows.tex
-<IDLE.png, id=475, 856.19875pt x 562.1pt>
+<IDLE.png, id=491, 856.19875pt x 562.1pt>
 File: IDLE.png Graphic file (type png)
  <use IDLE.png>
 Package pdftex.def Info: IDLE.png used on input line 12.
@@ -970,72 +970,77 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 ]) (./VariablesSize.tex
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb
-(../py-number.py)) [12
+ (./python-tutorial-workshop.vrb) [12
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb
+ (./python-tutorial-workshop.vrb (../py-number.py)) [13
+
+]
+\openout4 = `python-tutorial-workshop.vrb'.
+
+
+(./python-tutorial-workshop.vrb
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) (../datasize.c)) [13
+) (../datasize.c)) [14
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb) [14
+ (./python-tutorial-workshop.vrb) [15
 
 ]) (./VariablesInPython3.tex
 \openout4 = `python-tutorial-workshop.vrb'.
 
 
 (./python-tutorial-workshop.vrb (../variables.py) (../variables.py)
-(../variables.py)) [15
+(../variables.py)) [16
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
  (./python-tutorial-workshop.vrb (../variables.py))
-[16
+[17
 
 ]) (./Python3Loop.tex
 \openout4 = `python-tutorial-workshop.vrb'.
 
  (./python-tutorial-workshop.vrb (../py-loop.py))
-[17
+[18
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb (../py-loop.py)) [18
+ (./python-tutorial-workshop.vrb (../py-loop.py)) [19
 
 ])
 (./Python3Control.tex
 \openout4 = `python-tutorial-workshop.vrb'.
 
  (./python-tutorial-workshop.vrb (../py-control.py))
-[19
+[20
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb (../py-control.py)) [20
+ (./python-tutorial-workshop.vrb (../py-control.py)) [21
 
 ])
 (./Python3Container.tex
 \openout4 = `python-tutorial-workshop.vrb'.
 
  (./python-tutorial-workshop.vrb (../py-container.py))
-[21
+[22
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb (../py-container.py) (../py-container.py)) [22
+ (./python-tutorial-workshop.vrb (../py-container.py) (../py-container.py)) [23
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
@@ -1045,20 +1050,14 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 (Font)              using `OT1/cmss/bx/n' instead on input line 5.
 
-(../py-container.py) (../py-container.py)) [23
+(../py-container.py) (../py-container.py)) [24
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb (../py-container.py)) [24
+ (./python-tutorial-workshop.vrb (../py-container.py)) [25
 
 ]) (./Python3Class.tex
-\openout4 = `python-tutorial-workshop.vrb'.
-
-
-(./python-tutorial-workshop.vrb (../py-class0.py)) [25
-
-]
 \openout4 = `python-tutorial-workshop.vrb'.
 
 
@@ -1068,32 +1067,38 @@ LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 \openout4 = `python-tutorial-workshop.vrb'.
 
 
-(./python-tutorial-workshop.vrb (../py-class1.py)) [27
-
-]) (./Python3Function.tex
-\openout4 = `python-tutorial-workshop.vrb'.
-
-(./python-tutorial-workshop.vrb (../py-function.py)) [28
+(./python-tutorial-workshop.vrb (../py-class0.py)) [27
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
 
+(./python-tutorial-workshop.vrb (../py-class1.py)) [28
+
+]) (./Python3Function.tex
+\openout4 = `python-tutorial-workshop.vrb'.
+
 (./python-tutorial-workshop.vrb (../py-function.py)) [29
+
+]
+\openout4 = `python-tutorial-workshop.vrb'.
+
+
+(./python-tutorial-workshop.vrb (../py-function.py)) [30
 
 ])
 (./matplotlib-example.tex
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb (../py-matplotlib.py)) [30
+ (./python-tutorial-workshop.vrb (../py-matplotlib.py)) [31
 
 ]) (./templateStd.tex
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb) [31
+ (./python-tutorial-workshop.vrb) [32
 
 ])
-(./templateEnd.tex [32
+(./templateEnd.tex [33
 
 ])
 \tf@nav=\write6
@@ -1119,10 +1124,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 19216 strings out of 494456
- 356283 string characters out of 6171384
- 666740 words of memory out of 5000000
- 21963 multiletter control sequences out of 15000+600000
+ 19224 strings out of 494456
+ 356392 string characters out of 6171384
+ 668592 words of memory out of 5000000
+ 21967 multiletter control sequences out of 15000+600000
  20421 words of font info for 76 fonts, out of 8000000 for 9000
  286 hyphenation exceptions out of 8191
  48i,19n,59p,791b,1276s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1140,10 +1145,10 @@ sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 t10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7
 .pfb>
-Output written on python-tutorial-workshop.pdf (32 pages, 294772 bytes).
+Output written on python-tutorial-workshop.pdf (33 pages, 300490 bytes).
 PDF statistics:
- 2053 PDF objects out of 2073 (max. 8388607)
- 1935 compressed objects within 20 object streams
- 68 named destinations out of 1000 (max. 500000)
+ 2180 PDF objects out of 2487 (max. 8388607)
+ 2058 compressed objects within 21 object streams
+ 70 named destinations out of 1000 (max. 500000)
  77 words of extra memory for PDF output out of 10000 (max. 10000000)
 
