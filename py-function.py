@@ -45,6 +45,14 @@ def sum2( arg1, arg2, arg3):
         arg3[0] = arg1[0] + arg2[0]
         return
 
+def sum3(arg1,arg2,arg3):
+        arg3 = arg1 + arg2
+        print(arg3,'Inside function')
+        return
+
+def sum4(arg1, arg2, arg3):
+        arg3[:] = arg1[:] + arg2[:]
+        return
 
 if __name__ == '__main__':
         str="New"
@@ -56,5 +64,23 @@ if __name__ == '__main__':
         c=[0]
         sum2(a,b,c)
         print(c[0])
+        del a,b,c
+        a =1
+        b =2
+        c =0
+        sum3(a,b,c)
+        print(c)
+        del a,b,c
+        import numpy as np
+        a = np.ndarray(shape=(1), dtype=int)
+        b = np.ndarray(shape=(1), dtype=int)
+        c = np.ndarray(shape=(1), dtype=int)
+        a[0] = 1
+        b[0] = 2
+        c[0] = 0
+        sum4(a,b,c)
+        print(c[0]) #will return 3 because np.ndarray is mutable.
+
+        
 
         
