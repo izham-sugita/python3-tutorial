@@ -12,8 +12,34 @@ file: \newfilename
 \begin{frame}[fragile]
 \frametitle{Function: Modularizing your codes}
 \newcommand{\newfilename}{py-function.py}
+\begin{itemize}
+\item Creating a function that change the value of its input: 
 
-\lstinputlisting[language=Python, firstline=2, lastline=6]{../py-function.py}
+\lstinputlisting[language=Python, firstline=44, lastline=46]{../py-function.py}
+
+\item Function parameters in Python are pass-by-reference.
+\item To change the value $\longrightarrow$ mutable object as input parameter e.g. list, numpy's array
+
+\end{itemize}
+
+file: \newfilename
+\end{frame}
+
+%-----------------------------------------------------------------------------
+
+\begin{frame}[fragile]
+\frametitle{Function: Modularizing your codes}
+\newcommand{\newfilename}{py-function.py}
+\begin{itemize}
+\item Creating a function that change the value of its input: 
+
+\lstinputlisting[language=Python, firstline=53, lastline=55]{../py-function.py}
+
+\item Input parameters as numpy's array.
+
+\lstinputlisting[language=Python, firstline=74, lastline=82]{../py-function.py}
+
+\end{itemize}
 
 file: \newfilename
 \end{frame}

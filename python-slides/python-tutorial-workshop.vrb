@@ -1,2 +1,12 @@
-\frametitle{Template slide}
+\frametitle{Numba module}
+
+\begin{itemize}
+\item Python module for high performance computing.
+\item Just-In-Time compiler for faster computation.
+\item Documentation from \url{https://numba.pydata.org/}
+\end{itemize}
+
+%\newcommand{\newfilename}{py-matplotlib.py}
+%\lstinputlisting[language=Python, firstline=1, lastline=7]{../py-matplotlib.py}
+%file: \newfilename
 
