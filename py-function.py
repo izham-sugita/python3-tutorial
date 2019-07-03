@@ -10,6 +10,9 @@ def printme( str ):
 	print( str )
 	return
 
+def foo(arg1):
+        return 2*arg1
+
 #calling the function
 #str = "This is the string to print"
 #printme(str)
