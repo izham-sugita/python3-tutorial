@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  3 JUL 2019 15:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  3 JUL 2019 16:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -873,7 +873,20 @@ Dictionary: translator-theorem-dictionary, Language: English
 (./python-tutorial-workshop.nav) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdft
 ex.map}
 
-] (./python-tutorial-workshop.toc) [2
+] (./IsaacNewton.tex
+\openout4 = `python-tutorial-workshop.vrb'.
+
+ (./python-tutorial-workshop.vrb
+<isaacnewton1-2x.jpg, id=158, 1221.46478pt x 641.26901pt>
+File: isaacnewton1-2x.jpg Graphic file (type jpg)
+
+<use isaacnewton1-2x.jpg>
+Package pdftex.def Info: isaacnewton1-2x.jpg used on input line 3.
+(pdftex.def)             Requested size: 245.83282pt x 129.0539pt.
+) [2
+
+ <./isaacnewton1-2x.jpg>])
+(./python-tutorial-workshop.toc) [3
 
 ] (./Intro-0.tex
 \openout4 = `python-tutorial-workshop.vrb'.
@@ -889,20 +902,20 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)) [3
+)) [4
 
 ])
 (./Intro-0-1.tex
 \openout4 = `python-tutorial-workshop.vrb'.
 
  (./python-tutorial-workshop.vrb
-<ProgrammingFlow.pdf, id=282, 796.9775pt x 597.23125pt>
+<ProgrammingFlow.pdf, id=344, 796.9775pt x 597.23125pt>
 File: ProgrammingFlow.pdf Graphic file (type pdf)
 
 <use ProgrammingFlow.pdf>
 Package pdftex.def Info: ProgrammingFlow.pdf used on input line 3.
 (pdftex.def)             Requested size: 245.83282pt x 184.21936pt.
-) [4
+) [5
 
  <./ProgrammingFlow.pdf>]) (./Intro-0-2.tex
 \openout4 = `python-tutorial-workshop.vrb'.
@@ -912,7 +925,7 @@ Package pdftex.def Info: ProgrammingFlow.pdf used on input line 3.
 
 LaTeX Font Warning: Command \LARGE invalid in math mode on input line 18.
 
-) [5
+) [6
 
 ]) (./Installation.tex
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -937,26 +950,26 @@ LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 (Font)              using `OML/cmm/m/it' instead
 (Font)              for symbol `textgreater' on input line 3.
 
-) (./install-commands.txt) [6
+) (./install-commands.txt) [7
 
 ]) (./Installation-windows.tex
-<IDLE.png, id=491, 856.19875pt x 562.1pt>
+<IDLE.png, id=554, 856.19875pt x 562.1pt>
 File: IDLE.png Graphic file (type png)
  <use IDLE.png>
 Package pdftex.def Info: IDLE.png used on input line 12.
 (pdftex.def)             Requested size: 228.31271pt x 149.8821pt.
- [7
+ [8
 
  <./IDLE.png>])
-(./Intro.tex [8
+(./Intro.tex [9
 
-] [9
+] [10
 
 ]) (./TheZenOfPython.tex
 \openout4 = `python-tutorial-workshop.vrb'.
 
  (./python-tutorial-workshop.vrb)
-[10
+[11
 
 ]) (./HelloPython.tex
 \openout4 = `python-tutorial-workshop.vrb'.
@@ -965,17 +978,17 @@ Package pdftex.def Info: IDLE.png used on input line 12.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(./helloPython.py)) [11
+(./helloPython.py)) [12
 
 ]) (./VariablesSize.tex
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb) [12
+ (./python-tutorial-workshop.vrb) [13
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb (../py-number.py)) [13
+ (./python-tutorial-workshop.vrb (../py-number.py)) [14
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
@@ -987,60 +1000,60 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) (../datasize.c)) [14
+) (../datasize.c)) [15
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb) [15
+ (./python-tutorial-workshop.vrb) [16
 
 ]) (./VariablesInPython3.tex
 \openout4 = `python-tutorial-workshop.vrb'.
 
 
 (./python-tutorial-workshop.vrb (../variables.py) (../variables.py)
-(../variables.py)) [16
+(../variables.py)) [17
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
  (./python-tutorial-workshop.vrb (../variables.py))
-[17
+[18
 
 ]) (./Python3Loop.tex
 \openout4 = `python-tutorial-workshop.vrb'.
 
  (./python-tutorial-workshop.vrb (../py-loop.py))
-[18
+[19
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb (../py-loop.py)) [19
+ (./python-tutorial-workshop.vrb (../py-loop.py)) [20
 
 ])
 (./Python3Control.tex
 \openout4 = `python-tutorial-workshop.vrb'.
 
  (./python-tutorial-workshop.vrb (../py-control.py))
-[20
+[21
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb (../py-control.py)) [21
+ (./python-tutorial-workshop.vrb (../py-control.py)) [22
 
 ])
 (./Python3Container.tex
 \openout4 = `python-tutorial-workshop.vrb'.
 
  (./python-tutorial-workshop.vrb (../py-container.py))
-[22
+[23
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb (../py-container.py) (../py-container.py)) [23
+ (./python-tutorial-workshop.vrb (../py-container.py) (../py-container.py)) [24
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
@@ -1050,20 +1063,14 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 (Font)              using `OT1/cmss/bx/n' instead on input line 5.
 
-(../py-container.py) (../py-container.py)) [24
+(../py-container.py) (../py-container.py)) [25
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb (../py-container.py)) [25
+ (./python-tutorial-workshop.vrb (../py-container.py)) [26
 
 ]) (./Python3Class.tex
-\openout4 = `python-tutorial-workshop.vrb'.
-
-
-(./python-tutorial-workshop.vrb (../py-class0.py)) [26
-
-]
 \openout4 = `python-tutorial-workshop.vrb'.
 
 
@@ -1073,32 +1080,38 @@ LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 \openout4 = `python-tutorial-workshop.vrb'.
 
 
-(./python-tutorial-workshop.vrb (../py-class1.py)) [28
-
-]) (./Python3Function.tex
-\openout4 = `python-tutorial-workshop.vrb'.
-
-(./python-tutorial-workshop.vrb (../py-function.py)) [29
+(./python-tutorial-workshop.vrb (../py-class0.py)) [28
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
 
+(./python-tutorial-workshop.vrb (../py-class1.py)) [29
+
+]) (./Python3Function.tex
+\openout4 = `python-tutorial-workshop.vrb'.
+
 (./python-tutorial-workshop.vrb (../py-function.py)) [30
+
+]
+\openout4 = `python-tutorial-workshop.vrb'.
+
+
+(./python-tutorial-workshop.vrb (../py-function.py)) [31
 
 ])
 (./matplotlib-example.tex
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb (../py-matplotlib.py)) [31
+ (./python-tutorial-workshop.vrb (../py-matplotlib.py)) [32
 
 ]) (./templateStd.tex
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb) [32
+ (./python-tutorial-workshop.vrb) [33
 
 ])
-(./templateEnd.tex [33
+(./templateEnd.tex [34
 
 ])
 \tf@nav=\write6
@@ -1110,11 +1123,11 @@ LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 \tf@snm=\write8
 \openout8 = `python-tutorial-workshop.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 199.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 199.
  (./python-tutorial-workshop.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 199.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 199.
 Package rerunfilecheck Info: File `python-tutorial-workshop.out' has not change
 d.
 (rerunfilecheck)             Checksum: E151F26A1CB1DAAFA92A075607BAE934;154.
@@ -1124,10 +1137,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 19224 strings out of 494456
- 356392 string characters out of 6171384
- 668592 words of memory out of 5000000
- 21967 multiletter control sequences out of 15000+600000
+ 19239 strings out of 494456
+ 356646 string characters out of 6171384
+ 668697 words of memory out of 5000000
+ 21973 multiletter control sequences out of 15000+600000
  20421 words of font info for 76 fonts, out of 8000000 for 9000
  286 hyphenation exceptions out of 8191
  48i,19n,59p,791b,1276s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1145,10 +1158,10 @@ sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 t10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7
 .pfb>
-Output written on python-tutorial-workshop.pdf (33 pages, 300490 bytes).
+Output written on python-tutorial-workshop.pdf (34 pages, 394006 bytes).
 PDF statistics:
- 2180 PDF objects out of 2487 (max. 8388607)
- 2058 compressed objects within 21 object streams
- 70 named destinations out of 1000 (max. 500000)
- 77 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2242 PDF objects out of 2487 (max. 8388607)
+ 2117 compressed objects within 22 object streams
+ 72 named destinations out of 1000 (max. 500000)
+ 82 words of extra memory for PDF output out of 10000 (max. 10000000)
 
