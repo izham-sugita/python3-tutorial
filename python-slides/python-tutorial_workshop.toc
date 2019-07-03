@@ -1,2 +1,0 @@
-\beamer@sectionintoc {1}{Why Python?}{3}{0}{1}
-\beamer@sectionintoc {2}{Second Section}{8}{0}{2}

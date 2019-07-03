@@ -110,11 +110,25 @@
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
 
+%My personal package
+%\usepackage{tikz}
+
+%% Knuths smile box from 
+%\centerline{\bf Stable Husbands}
+%\bigskip
+%\centerline{\sl Donald E. Knuth, Rajeev Motwani, and Boris Pittel}
+%\centerline{\sl  Computer Science Department, Stanford University}
+\def\pfbox % new experimental version (DEK, November 88)
+{{\ooalign{\hfil\lower.06ex % a smiley face
+ \hbox{$\scriptscriptstyle -$}\hfil\crcr
+ \hfil\lower.7ex\hbox{\"{}}\hfil\crcr
+ \mathhexbox20D}}}
+
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title[IPSE]{Introduction to Python3 for Scientists and Engineers } % The short title appears at the bottom of every slide, the full title is only on the title page
+\title[PBNP]{Python for Beginners/Non-Programmers} % The short title appears at the bottom of every slide, the full title is only on the title page
 
 \author{Muhammad Izham} % Your name
 \institute[Universiti Malaysia Perlis] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
@@ -148,22 +162,34 @@ Universiti Malaysia Perlis \\ % Your institution for the title page
 %------------------------------------------------
 \section{The Basics} 
 
-\input{Intro}
+\input{Intro-0}
+\input{Intro-0-1}
+\input{Intro-0-2}
+
 \input{Installation}
+\input{Installation-windows}
+
+\input{Intro}
+
 \input{TheZenOfPython}
+
+
+%------------------------------------------------
+\section{Python3 Coding}
+%------------------------------------------------
+
 \input{HelloPython}
+\input{VariablesSize}
 \input{VariablesInPython3}
+\input{Python3Loop}
+\input{Python3Control}
 \input{Python3Container}
 \input{Python3Class}
+\input{Python3Function}
 
+\section{Practical Implementations}
 
-%------------------------------------------------
-\section{Python3 for Scientists and Engineers}
-%------------------------------------------------
-
-\input{templateStd}
-
-\section{Practical Programming}
+\input{matplotlib-example}
 
 \input{templateStd}
 \input{templateEnd}
