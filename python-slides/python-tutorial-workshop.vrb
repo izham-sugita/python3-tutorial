@@ -1,12 +1,10 @@
-\frametitle{Numba module}
+\frametitle{Numba with CUDA}
 
 \begin{itemize}
-\item Python module for high performance computing.
-\item Just-In-Time (JIT) compiler for faster computation.
-\item Documentation from \url{https://numba.pydata.org/}
+\item Example for CUDA kernel using numba
 \end{itemize}
 
-%\newcommand{\newfilename}{py-matplotlib.py}
-%\lstinputlisting[language=Python, firstline=1, lastline=7]{../py-matplotlib.py}
-%file: \newfilename
+\newcommand{\newfilename}{py-numba-cuda.py}
+\lstinputlisting[language=Python, firstline=6, lastline=16]{../py-numba-cuda-mxm.py}
+file: \newfilename
 

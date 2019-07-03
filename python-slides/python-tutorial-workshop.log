@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  3 JUL 2019 21:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  3 JUL 2019 22:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -877,7 +877,7 @@ ex.map}
 \openout4 = `python-tutorial-workshop.vrb'.
 
  (./python-tutorial-workshop.vrb
-<isaacnewton1-2x.jpg, id=170, 1221.46478pt x 641.26901pt>
+<isaacnewton1-2x.jpg, id=185, 1221.46478pt x 641.26901pt>
 File: isaacnewton1-2x.jpg Graphic file (type jpg)
 
 <use isaacnewton1-2x.jpg>
@@ -890,7 +890,7 @@ Package pdftex.def Info: isaacnewton1-2x.jpg used on input line 3.
 
 
 (./python-tutorial-workshop.vrb
-<Python-snake.jpg, id=236, 2952.02875pt x 1205.50375pt>
+<Python-snake.jpg, id=256, 2952.02875pt x 1205.50375pt>
 File: Python-snake.jpg Graphic file (type jpg)
  <use Python-snake.jpg>
 Package pdftex.def Info: Python-snake.jpg used on input line 3.
@@ -920,7 +920,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout4 = `python-tutorial-workshop.vrb'.
 
  (./python-tutorial-workshop.vrb
-<ProgrammingFlow.pdf, id=434, 796.9775pt x 597.23125pt>
+<ProgrammingFlow.pdf, id=469, 796.9775pt x 597.23125pt>
 File: ProgrammingFlow.pdf Graphic file (type pdf)
 
 <use ProgrammingFlow.pdf>
@@ -964,7 +964,7 @@ LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 ) (./install-commands.txt) [8
 
 ]) (./Installation-windows.tex
-<IDLE.png, id=656, 856.19875pt x 562.1pt>
+<IDLE.png, id=706, 856.19875pt x 562.1pt>
 File: IDLE.png Graphic file (type png)
  <use IDLE.png>
 Package pdftex.def Info: IDLE.png used on input line 12.
@@ -976,30 +976,33 @@ Package pdftex.def Info: IDLE.png used on input line 12.
 
 ] [11
 
+] (./install-commands.txt) [12
+
 ]) (./TheZenOfPython.tex
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb)
-[12
+
+(./python-tutorial-workshop.vrb) [13
 
 ]) (./HelloPython.tex
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb
+
+(./python-tutorial-workshop.vrb
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(../helloPython.py)) [13
+(../helloPython.py)) [14
 
 ]) (./VariablesSize.tex
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb) [14
+ (./python-tutorial-workshop.vrb) [15
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb (../py-number.py)) [15
+ (./python-tutorial-workshop.vrb (../py-number.py)) [16
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
@@ -1011,60 +1014,60 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) (../datasize.c)) [16
+) (../datasize.c)) [17
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb) [17
+ (./python-tutorial-workshop.vrb) [18
 
 ]) (./VariablesInPython3.tex
 \openout4 = `python-tutorial-workshop.vrb'.
 
 
 (./python-tutorial-workshop.vrb (../variables.py) (../variables.py)
-(../variables.py)) [18
+(../variables.py)) [19
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
  (./python-tutorial-workshop.vrb (../variables.py))
-[19
+[20
 
 ]) (./Python3Loop.tex
 \openout4 = `python-tutorial-workshop.vrb'.
 
  (./python-tutorial-workshop.vrb (../py-loop.py))
-[20
+[21
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb (../py-loop.py)) [21
+ (./python-tutorial-workshop.vrb (../py-loop.py)) [22
 
 ])
 (./Python3Control.tex
 \openout4 = `python-tutorial-workshop.vrb'.
 
  (./python-tutorial-workshop.vrb (../py-control.py))
-[22
+[23
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb (../py-control.py)) [23
+ (./python-tutorial-workshop.vrb (../py-control.py)) [24
 
 ])
 (./Python3Container.tex
 \openout4 = `python-tutorial-workshop.vrb'.
 
  (./python-tutorial-workshop.vrb (../py-container.py))
-[24
+[25
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb (../py-container.py) (../py-container.py)) [25
+ (./python-tutorial-workshop.vrb (../py-container.py) (../py-container.py)) [26
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
@@ -1074,20 +1077,14 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 (Font)              using `OT1/cmss/bx/n' instead on input line 5.
 
-(../py-container.py) (../py-container.py)) [26
+(../py-container.py) (../py-container.py)) [27
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb (../py-container.py)) [27
+ (./python-tutorial-workshop.vrb (../py-container.py)) [28
 
 ]) (./Python3Class.tex
-\openout4 = `python-tutorial-workshop.vrb'.
-
-
-(./python-tutorial-workshop.vrb (../py-class0.py)) [28
-
-]
 \openout4 = `python-tutorial-workshop.vrb'.
 
 
@@ -1097,16 +1094,16 @@ LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 \openout4 = `python-tutorial-workshop.vrb'.
 
 
-(./python-tutorial-workshop.vrb (../py-class1.py)) [30
-
-]) (./Python3Function.tex
-\openout4 = `python-tutorial-workshop.vrb'.
-
-(./python-tutorial-workshop.vrb (../py-function.py)) [31
+(./python-tutorial-workshop.vrb (../py-class0.py)) [30
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
+
+(./python-tutorial-workshop.vrb (../py-class1.py)) [31
+
+]) (./Python3Function.tex
+\openout4 = `python-tutorial-workshop.vrb'.
 
 (./python-tutorial-workshop.vrb (../py-function.py)) [32
 
@@ -1114,41 +1111,74 @@ LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 \openout4 = `python-tutorial-workshop.vrb'.
 
 
-(./python-tutorial-workshop.vrb (../py-function.py) (../py-function.py))
-Overfull \vbox (5.91554pt too high) detected at line 45
- []
-
-[33
-
-]) (./TheTools.tex
-\openout4 = `python-tutorial-workshop.vrb'.
-
- (./python-tutorial-workshop.vrb) [34
+(./python-tutorial-workshop.vrb (../py-function.py)) [33
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
 
-(./python-tutorial-workshop.vrb) [35
+(./python-tutorial-workshop.vrb (../py-function.py)) [34
+
+]
+\openout4 = `python-tutorial-workshop.vrb'.
+
+
+(./python-tutorial-workshop.vrb (../py-function.py)) [35
+
+]
+\openout4 = `python-tutorial-workshop.vrb'.
+
+
+(./python-tutorial-workshop.vrb (../py-function.py) (../py-function.py))
+[36
+
+]) (./EOLforCoding.tex
+\openout4 = `python-tutorial-workshop.vrb'.
+
+ (./python-tutorial-workshop.vrb) [37
+
+])
+(./TheTools.tex
+\openout4 = `python-tutorial-workshop.vrb'.
+
+ (./python-tutorial-workshop.vrb) [38
+
+]
+\openout4 = `python-tutorial-workshop.vrb'.
+
+
+(./python-tutorial-workshop.vrb) [39
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
  (./python-tutorial-workshop.vrb
-(../py-matplotlib.py)) [36
+(../py-matplotlib.py)) [40
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
- (./python-tutorial-workshop.vrb) [37
+ (./python-tutorial-workshop.vrb) [41
 
 ]
 \openout4 = `python-tutorial-workshop.vrb'.
 
 
-(./python-tutorial-workshop.vrb) [38
+(./python-tutorial-workshop.vrb) [42
 
-]) (./templateEnd.tex [39
+]
+\openout4 = `python-tutorial-workshop.vrb'.
+
+ (./python-tutorial-workshop.vrb
+(../py-numba-cuda.py)) [43
+
+]
+\openout4 = `python-tutorial-workshop.vrb'.
+
+ (./python-tutorial-workshop.vrb
+(../py-numba-cuda-mxm.py)) [44
+
+]) (./templateEnd.tex [45
 
 ])
 \tf@nav=\write6
@@ -1160,12 +1190,12 @@ Overfull \vbox (5.91554pt too high) detected at line 45
 \tf@snm=\write8
 \openout8 = `python-tutorial-workshop.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 199.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 199.
 
 (./python-tutorial-workshop.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 199.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 199.
 Package rerunfilecheck Info: File `python-tutorial-workshop.out' has not change
 d.
 (rerunfilecheck)             Checksum: E151F26A1CB1DAAFA92A075607BAE934;154.
@@ -1175,10 +1205,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 19285 strings out of 494456
- 357299 string characters out of 6171384
- 676503 words of memory out of 5000000
- 21997 multiletter control sequences out of 15000+600000
+ 19375 strings out of 494456
+ 358457 string characters out of 6171384
+ 674631 words of memory out of 5000000
+ 22050 multiletter control sequences out of 15000+600000
  20421 words of font info for 76 fonts, out of 8000000 for 9000
  286 hyphenation exceptions out of 8191
  48i,19n,59p,791b,1276s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1196,10 +1226,10 @@ sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 t10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7
 .pfb>
-Output written on python-tutorial-workshop.pdf (39 pages, 2811499 bytes).
+Output written on python-tutorial-workshop.pdf (45 pages, 2841018 bytes).
 PDF statistics:
- 2718 PDF objects out of 2984 (max. 8388607)
- 2579 compressed objects within 26 object streams
- 82 named destinations out of 1000 (max. 500000)
+ 3342 PDF objects out of 3580 (max. 8388607)
+ 3186 compressed objects within 32 object streams
+ 94 named destinations out of 1000 (max. 500000)
  87 words of extra memory for PDF output out of 10000 (max. 10000000)
 
