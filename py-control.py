@@ -1,23 +1,22 @@
+x = int(input("Enter an integer: "))
+if x > 0:
+        print("x = %d\n"%(x))
+
+
+
 print("if Statement\n")
-
 x = int(input("Please enter an integer: "))
-
 if x < 0:
 	x = 0
 	print("Negative value will turn to ZERO")
-
 elif x == 0:
-	print("Zero")
-	
+	print("Zero")	
 elif x == 1:
 	print("Single")
-	
 else:
 	print("x = %d"%(x))
 	
-
 words = ['I', 'me', 'you', 'him']
-
 for w in words:
 	print(w, len(w))
 

@@ -13,7 +13,6 @@ def printme( str ):
 #calling the function
 #str = "This is the string to print"
 #printme(str)
-
 #pass by value
 def changeme( mylist ):
 	"This changes a passed list"
@@ -42,7 +41,20 @@ def sum( arg1, arg2 ):
 #addition = sum(10,20)
 #print(addition) # will print "None" because nothing is returned
 
+def sum2( arg1, arg2, arg3):
+        arg3[0] = arg1[0] + arg2[0]
+        return
+
+
 if __name__ == '__main__':
-	print(sum(10,10))
-	str = "Sugita"
-	printme(str)
+        str="New"
+        print(sum(10,10))
+        str = "Sugita"
+        printme(str)
+        a=[10]
+        b=[10]
+        c=[0]
+        sum2(a,b,c)
+        print(c[0])
+
+        

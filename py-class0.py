@@ -33,7 +33,7 @@ for i in range(len(car_list)):
 class employee:
     #functions to initiate
     def __init__(self, name, salary):
-        self.__name=name     #protected attribute
+        self.__name=name     #protected attribute, hence private
         self.__salary=salary #protected attribute
 
 
