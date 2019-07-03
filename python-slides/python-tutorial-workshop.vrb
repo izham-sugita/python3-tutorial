@@ -4,7 +4,7 @@
 \item Example for CUDA kernel using numba
 \end{itemize}
 
-\newcommand{\newfilename}{py-numba-cuda.py}
+\newcommand{\newfilename}{py-numba-cuda-mxm.py}
 \lstinputlisting[language=Python, firstline=6, lastline=16]{../py-numba-cuda-mxm.py}
 file: \newfilename
 

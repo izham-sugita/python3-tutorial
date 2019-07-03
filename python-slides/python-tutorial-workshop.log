@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  3 JUL 2019 22:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  3 JUL 2019 23:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -877,7 +877,7 @@ ex.map}
 \openout4 = `python-tutorial-workshop.vrb'.
 
  (./python-tutorial-workshop.vrb
-<isaacnewton1-2x.jpg, id=185, 1221.46478pt x 641.26901pt>
+<isaacnewton1-2x.jpg, id=188, 1221.46478pt x 641.26901pt>
 File: isaacnewton1-2x.jpg Graphic file (type jpg)
 
 <use isaacnewton1-2x.jpg>
@@ -890,7 +890,7 @@ Package pdftex.def Info: isaacnewton1-2x.jpg used on input line 3.
 
 
 (./python-tutorial-workshop.vrb
-<Python-snake.jpg, id=256, 2952.02875pt x 1205.50375pt>
+<Python-snake.jpg, id=260, 2952.02875pt x 1205.50375pt>
 File: Python-snake.jpg Graphic file (type jpg)
  <use Python-snake.jpg>
 Package pdftex.def Info: Python-snake.jpg used on input line 3.
@@ -920,7 +920,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout4 = `python-tutorial-workshop.vrb'.
 
  (./python-tutorial-workshop.vrb
-<ProgrammingFlow.pdf, id=469, 796.9775pt x 597.23125pt>
+<ProgrammingFlow.pdf, id=476, 796.9775pt x 597.23125pt>
 File: ProgrammingFlow.pdf Graphic file (type pdf)
 
 <use ProgrammingFlow.pdf>
@@ -964,7 +964,7 @@ LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 ) (./install-commands.txt) [8
 
 ]) (./Installation-windows.tex
-<IDLE.png, id=706, 856.19875pt x 562.1pt>
+<IDLE.png, id=716, 856.19875pt x 562.1pt>
 File: IDLE.png Graphic file (type png)
  <use IDLE.png>
 Package pdftex.def Info: IDLE.png used on input line 12.
@@ -1205,10 +1205,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 19375 strings out of 494456
- 358457 string characters out of 6171384
- 674631 words of memory out of 5000000
- 22050 multiletter control sequences out of 15000+600000
+ 19377 strings out of 494456
+ 358475 string characters out of 6171384
+ 675056 words of memory out of 5000000
+ 22052 multiletter control sequences out of 15000+600000
  20421 words of font info for 76 fonts, out of 8000000 for 9000
  286 hyphenation exceptions out of 8191
  48i,19n,59p,791b,1276s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1226,10 +1226,10 @@ sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 t10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7
 .pfb>
-Output written on python-tutorial-workshop.pdf (45 pages, 2841018 bytes).
+Output written on python-tutorial-workshop.pdf (45 pages, 2843446 bytes).
 PDF statistics:
- 3342 PDF objects out of 3580 (max. 8388607)
- 3186 compressed objects within 32 object streams
+ 3389 PDF objects out of 3580 (max. 8388607)
+ 3231 compressed objects within 33 object streams
  94 named destinations out of 1000 (max. 500000)
  87 words of extra memory for PDF output out of 10000 (max. 10000000)
 
