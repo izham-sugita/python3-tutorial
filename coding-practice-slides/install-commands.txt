@@ -1,0 +1,5 @@
+user@pc-name:~/apt install python3
+user@pc-name:~/pip3 install numpy
+C:\User\dummy\> pip3 install numpy
+C:\User\dummy\> python3 -m pip3 install numpy
+user@pc-name:~/conda install any_package
