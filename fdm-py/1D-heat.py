@@ -1,23 +1,24 @@
 import numpy as np
+import time
 
 pi = np.pi
 
-imax = 16
+imax = 100
 dx = 1.0/float(imax)
 
 x = np.arange(0.0, 1.0+dx, dx)
-print(x)
-print(x[0])
-print(x[imax])
+#print(x)
+#print(x[0])
+#print(x[imax])
 
-kappa = 1.0
+kappa = 0.25
 dt = 0.1*(dx*dx)
 coeff = kappa*dt/(dx*dx)
 
 fx = np.sin(pi*x)
 fxnew = np.zeros_like(fx)
 initfx = fx
-print(fx)
+#print(fx)
 
 peak = []
 tminus = []
@@ -25,8 +26,9 @@ icenter = int(imax/2)
 peak.append(fx[icenter])
 tminus.append(0.0)
 #print(peak)
-itermax = 500
+itermax = 5000
 
+ts = time.time()
 #iterative loop
 for iter in range(itermax):
     for i in range(1,imax):
@@ -38,6 +40,8 @@ for iter in range(itermax):
     fx = fxnew
 
 
+ts = time.time() -ts
+print("Elapsed time after %d steps: %f"%(itermax, ts))
 #print(tminus[:])
     
 import matplotlib
