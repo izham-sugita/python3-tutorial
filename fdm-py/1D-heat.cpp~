@@ -1,0 +1,4 @@
+/*C++ version of 1D FDM Heat Equation*/
+#include<iostream>
+#include<cmath>
+#include<vector>
