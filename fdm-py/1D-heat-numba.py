@@ -3,7 +3,6 @@ from numba import jit, njit
 import time
 
 @jit(nopython=True, nogil=True, cache=True)
-# @jit(nogil=True)
 def theloop(itermax,imax,icenter,coeff,dt,fx,fxnew,peak,tminus):
     for iter in range(itermax):
         for i in range(1,imax):
