@@ -7,7 +7,6 @@ import numpy as np
 
 #fig = plt.figure()
 #ax = fig.gca(projection='3d')
-
 # Make data.
 #X = np.arange(-5, 5, 0.25)
 #Y = np.arange(-5, 5, 0.25)
@@ -28,6 +27,16 @@ def simple3D(X,Y,Z):
     # Add a color bar which maps values to colors.
     fig.colorbar(surf, shrink=0.5, aspect=5)
     fig.savefig("3Dtest.png")
+
+if __name__ == '__main__':
+    # Make data.
+    X = np.arange(-5, 5, 0.25)
+    Y = np.arange(-5, 5, 0.25)
+    X, Y = np.meshgrid(X, Y)
+    R = np.sqrt(X**2 + Y**2)
+    Z = np.sin(R)
+    simple3D(X,Y,Z)
+    
     
 
 
