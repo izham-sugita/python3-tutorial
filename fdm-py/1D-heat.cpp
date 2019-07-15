@@ -3,7 +3,7 @@
 #include<cmath>
 #include<vector>
 #include<chrono>
-#include<algorithm> //for swap(a,b)
+#include<algorithm> //for swap(a,b) C++98
 #include<fstream>
 
 using namespace std;
