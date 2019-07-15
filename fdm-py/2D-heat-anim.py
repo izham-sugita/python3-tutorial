@@ -64,10 +64,13 @@ jcenter = int(jmax/2)
 peak = [0.0]
 tminus = [0.0]
 itermax = 10000
-rec = 1000
+rec = 100
 
 #warm up loop
 ops = theloop2D(1,imax,icenter,jcenter,1,coeff,dt,fx,fxnew,peak,tminus)
+
+del peak[0]
+del tminus[0]
 
 #reset fx value
 fx = initfx
@@ -97,12 +100,31 @@ for iter in range(itermax):
     #peak.append(fx[icenter,jcenter])
     #tminus.append((iter+1)*dt)
 '''
-    
-#print(fxnew.shape)
-#print(X.shape)
-#print(Y.shape)
 
 import contour0 as con
 con.plot2D(X,Y,fxnew)
 
 TDP.simple3D(X,Y,fxnew)
+
+#tminus.remove(tminus[0])
+#peak.remove(peak[0])
+
+del tminus[0]
+del peak[0]
+
+'''
+Python's built-in open() function:
+file object = open(file_name [, access_mode][, buffering])
+'''
+fo = open('peak.csv','w')
+
+fo.write('time, ')
+fo.write('f(x)_peak\n')
+for i in range(len(tminus)):
+    ts = str(tminus[i])
+    fpeak = str(peak[i])
+    fo.write(ts)
+    fo.write(', ')
+    fo.write(fpeak+'\n')
+
+fo.close()
