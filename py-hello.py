@@ -1,4 +1,5 @@
 #everything about the basics
+
 '''
 This is how you put a long comment.
 : <- colon
@@ -23,3 +24,4 @@ print("To print float number %f and integer %d"%(var1, var0))
 str1 = "Another way "
 str2 = "to add something."
 print(str1+str2)
+print(str1+"\t"+str2) # "\t" for tab spacing
