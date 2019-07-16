@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.7)  16 JUL 2019 15:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.7)  16 JUL 2019 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -866,7 +866,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 x.map}
 
 ] (./figureSample.tex
-<python-logo.png, id=110, 611.75027pt x 206.63113pt>
+<python-logo.png, id=119, 611.75027pt x 206.63113pt>
 File: python-logo.png Graphic file (type png)
 <use python-logo.png>
 Package pdftex.def Info: python-logo.png  used on input line 5.
@@ -900,7 +900,7 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 \openout4 = `python-coding-workshop.vrb'.
 
  (./python-coding-workshop.vrb
-<ProgrammingFlow.pdf, id=288, 796.9775pt x 597.23125pt>
+<ProgrammingFlow.pdf, id=309, 796.9775pt x 597.23125pt>
 File: ProgrammingFlow.pdf Graphic file (type pdf)
 <use ProgrammingFlow.pdf>
 Package pdftex.def Info: ProgrammingFlow.pdf  used on input line 3.
@@ -944,37 +944,49 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 
  (./python-coding-workshop.vrb (../py-hello.py)) [9
 
-])
-(./Python3ForWhile.tex
+]) (./Python3IO.tex
 \openout4 = `python-coding-workshop.vrb'.
 
- (./python-coding-workshop.vrb (../py-loop.py)) [10
+
+(./python-coding-workshop.vrb (../py-basic-io.py)) [10
 
 ]
 \openout4 = `python-coding-workshop.vrb'.
 
 
-(./python-coding-workshop.vrb (../py-loop.py)) [11
+(./python-coding-workshop.vrb (../py-file-io.py)) [11
+
+]) (./Python3ForWhile.tex
+\openout4 = `python-coding-workshop.vrb'.
+
+
+(./python-coding-workshop.vrb (../py-loop.py)) [12
 
 ]
 \openout4 = `python-coding-workshop.vrb'.
 
 
-(./python-coding-workshop.vrb (../py-while.py)) [12
+(./python-coding-workshop.vrb (../py-loop.py)) [13
+
+]
+\openout4 = `python-coding-workshop.vrb'.
+
+
+(./python-coding-workshop.vrb (../py-while.py)) [14
 
 ]) (./templateStd.tex
 \openout4 = `python-coding-workshop.vrb'.
 
 
-(./python-coding-workshop.vrb) [13
+(./python-coding-workshop.vrb) [15
 
 ]) (./templateStd.tex
 \openout4 = `python-coding-workshop.vrb'.
 
 
-(./python-coding-workshop.vrb) [14
+(./python-coding-workshop.vrb) [16
 
-]) (./templateEnd.tex [15
+]) (./templateEnd.tex [17
 
 ])
 \tf@nav=\write6
@@ -986,12 +998,12 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 \tf@snm=\write8
 \openout8 = `python-coding-workshop.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
 
 (./python-coding-workshop.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
 Package rerunfilecheck Info: File `python-coding-workshop.out' has not changed.
 
 (rerunfilecheck)             Checksum: B9ABBD79293A27C44A7E2F36A2FBDECD;143.
@@ -1001,10 +1013,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 18796 strings out of 494880
- 348965 string characters out of 6179602
- 634314 words of memory out of 5000000
- 21606 multiletter control sequences out of 15000+600000
+ 18824 strings out of 494880
+ 349328 string characters out of 6179602
+ 645337 words of memory out of 5000000
+ 21617 multiletter control sequences out of 15000+600000
  20421 words of font info for 76 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  48i,20n,60p,789b,1502s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1020,10 +1032,10 @@ lic/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 t10.pfb>
-Output written on python-coding-workshop.pdf (15 pages, 195379 bytes).
+Output written on python-coding-workshop.pdf (17 pages, 204656 bytes).
 PDF statistics:
- 760 PDF objects out of 1000 (max. 8388607)
- 684 compressed objects within 7 object streams
- 34 named destinations out of 1000 (max. 500000)
+ 899 PDF objects out of 1000 (max. 8388607)
+ 816 compressed objects within 9 object streams
+ 38 named destinations out of 1000 (max. 500000)
  125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
