@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.7)  18 JUL 2019 11:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.7)  19 JUL 2019 10:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1024,7 +1024,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  18862 strings out of 494880
  350069 string characters out of 6179602
- 636750 words of memory out of 5000000
+ 636711 words of memory out of 5000000
  21647 multiletter control sequences out of 15000+600000
  20421 words of font info for 76 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -1041,7 +1041,7 @@ lic/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 t10.pfb>
-Output written on python-coding-workshop.pdf (18 pages, 480001 bytes).
+Output written on python-coding-workshop.pdf (18 pages, 479368 bytes).
 PDF statistics:
  962 PDF objects out of 1000 (max. 8388607)
  876 compressed objects within 9 object streams
