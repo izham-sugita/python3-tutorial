@@ -1,0 +1,7 @@
+import numpy as np
+
+a = np.ndarray(shape=(10),dtype=np.float32)
+
+for i in range(10):
+    a[i] = np.random.random()
+    

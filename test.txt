@@ -1,1 +1,7 @@
 Test file
+cat
+tiger
+bear
+elephant
+mouse
+dear

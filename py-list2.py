@@ -3,6 +3,8 @@ import math as m
 imax = 8
 jmax = 8
 
+print("Array from 2D list (list of list)")
+
 list2D =[[0.0]*imax for j in range(jmax) ]
 #print(list2D)
 
@@ -18,7 +20,9 @@ for i in range(imax):
 xc = int(imax/2)
 yc = int(jmax/2)
 print(list2D[xc][yc])
-        
+
+print("Array from linear list")
+
 linear =[]
 for i in range(imax):
     for j in range(jmax):
@@ -28,6 +32,8 @@ xc =int( (imax/2)*jmax + (jmax/2))
 print(linear[xc])
 
 import numpy as np
+
+print("Array from numpy")
 
 a = np.ndarray(shape=(imax,jmax))
 
