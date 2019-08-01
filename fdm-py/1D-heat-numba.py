@@ -2,7 +2,8 @@ import numpy as np
 from numba import jit, njit
 import time
 
-@jit(nopython=True, nogil=True, cache=True)
+#@jit(nopython=True, nogil=True, cache=True)
+@jit(nopython=True, nogil=True, cache=True, parallel=True)
 def theloop(itermax,imax,icenter,coeff,dt,fx,fxnew,peak,tminus):
     for iter in range(itermax):
         for i in range(1,imax):
@@ -14,7 +15,8 @@ def theloop(itermax,imax,icenter,coeff,dt,fx,fxnew,peak,tminus):
 
         
 pi = np.pi
-imax = 100
+imax = int(input("Enter imax: "))
+#imax = 100
 dx = 1.0/float(imax)
 
 x = np.arange(0.0, 1.0+dx, dx)
@@ -38,6 +40,7 @@ peak.append(fx[icenter])
 tminus.append(0.0)
 #print(peak)
 itermax = 5000
+itermax = int(input("Enter maximum iteration: "))
 theloop(1,imax,icenter,coeff,dt,fx,fxnew,peak,tminus) #warm-up compilation
 
 ts = time.time()
