@@ -1,8 +1,19 @@
 \begin{frame}[fragile]
 \frametitle{Finite difference method for heat equation}
-\newcommand{\newfilename}{py-precise-loop.py}
+\newcommand{\newfilename}{1D-heat-numba.py}
 \begin{itemize}
 \item The 1D equation : $\frac{\partial T}{\partial t} = \kappa \frac{\partial^2 T}{\partial x^2}$
-\lstinputlisting[language=Python, firstline=1, lastline=16]{../fdm-py/1D-heat-numba.py}
+\lstinputlisting[language=Python, basicstyle=\tiny, firstline=1, lastline=12]{../fdm-py/1D-heat-numba.py}
 \end{itemize}
+file: \newfilename
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Finite difference method for heat equation}
+\newcommand{\newfilename}{1D-heat-numba.py}
+\begin{itemize}
+\item Visualization using matplotlib.
+\lstinputlisting[language=Python, basicstyle=\tiny, firstline=44, lastline=61]{../fdm-py/1D-heat-numba.py}
+\end{itemize}
+file: \newfilename
 \end{frame}

@@ -1,6 +1,8 @@
-\frametitle{Finite difference method for heat equation}
-\newcommand{\newfilename}{py-precise-loop.py}
+\frametitle{Monte-Carlo Simulation}
 \begin{itemize}
-\item The 1D equation : $\frac{\partial T}{\partial t} = \kappa \frac{\partial^2 T}{\partial x^2}$
-\lstinputlisting[language=Python, firstline=1, lastline=16]{../fdm-py/1D-heat-numba.py}
+\item Computation time Numba vs Normal script
+\begin{figure}
+\includegraphics[width=\textwidth]{numba-vs-normal.png}
+\caption{Numba vs normal script computation time.}
+\end{figure}
 \end{itemize}

@@ -18,15 +18,15 @@ def matmul(A, B, C):
 # Host code
 
 # Initialize the data arrays
-A = numpy.full((24, 12), 3, numpy.float) # matrix containing all 3's
-B = numpy.full((12, 22), 4, numpy.float) # matrix containing all 4's
+A = numpy.full((32, 16), 3, numpy.float) # matrix containing all 3's
+B = numpy.full((16, 32), 4, numpy.float) # matrix containing all 4's
 
 # Copy the arrays to the device
 A_global_mem = cuda.to_device(A)
 B_global_mem = cuda.to_device(B)
 
 # Allocate memory on the device for the result
-C_global_mem = cuda.device_array((24, 22))
+C_global_mem = cuda.device_array((32, 32))
 
 # Configure the blocks
 threadsperblock = (16, 16)
@@ -40,4 +40,6 @@ matmul[blockspergrid, threadsperblock](A_global_mem, B_global_mem, C_global_mem)
 # Copy the result back to the host
 C = C_global_mem.copy_to_host()
 
-print(C)
+Cref = numpy.matmul(A,B)
+
+print(C-Cref)

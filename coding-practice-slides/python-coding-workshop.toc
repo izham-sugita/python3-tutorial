@@ -1,3 +1,6 @@
 \beamer@sectionintoc {1}{Warming up}{3}{0}{1}
 \beamer@sectionintoc {2}{Code snippets}{11}{0}{2}
 \beamer@sectionintoc {3}{Application examples}{20}{0}{3}
+\beamer@subsectionintoc {3}{1}{The Most Common Modules}{21}{0}{3}
+\beamer@subsectionintoc {3}{2}{Finite Difference Method}{29}{0}{3}
+\beamer@subsectionintoc {3}{3}{Monte-Carlo Simulation}{31}{0}{3}
