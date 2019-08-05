@@ -1,8 +1,10 @@
-\frametitle{Monte-Carlo Simulation}
+\frametitle{A little bit more about pandas}
+
 \begin{itemize}
-\item Computation time Numba vs Normal script
-\begin{figure}
-\includegraphics[width=\textwidth]{numba-vs-normal.png}
-\caption{Numba vs normal script computation time.}
-\end{figure}
+\item Also very convenient to write out csv file.
 \end{itemize}
+
+\newcommand{\newfilename}{1D-heat-numba-pandas.py}
+\lstinputlisting[language=Python, firstline=63, lastline=73]{../fdm-py/1D-heat-numba-pandas.py}
+file: \newfilename
+

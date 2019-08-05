@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.7)  5 AUG 2019 15:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.7)  5 AUG 2019 16:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -866,7 +866,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 x.map}
 
 ] (./figureSample.tex
-<python-logo.png, id=182, 611.75027pt x 206.63113pt>
+<python-logo.png, id=197, 611.75027pt x 206.63113pt>
 File: python-logo.png Graphic file (type png)
 <use python-logo.png>
 Package pdftex.def Info: python-logo.png  used on input line 8.
@@ -875,16 +875,16 @@ Package pdftex.def Info: python-logo.png  used on input line 8.
 
  <./python-logo.png>])
 (./HyperX.tex
-<CFD-NASA-HyperX.png, id=245, 733.74126pt x 404.51125pt>
+<CFD-NASA-HyperX.png, id=265, 733.74126pt x 404.51125pt>
 File: CFD-NASA-HyperX.png Graphic file (type png)
 <use CFD-NASA-HyperX.png>
-Package pdftex.def Info: CFD-NASA-HyperX.png  used on input line 15.
-(pdftex.def)             Requested size: 183.43486pt x 101.12756pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 15.
+Package pdftex.def Info: CFD-NASA-HyperX.png  used on input line 16.
+(pdftex.def)             Requested size: 92.1879pt x 50.82301pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 16.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 15.
+LaTeX Font Info:    Try loading font information for U+msb on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -907,7 +907,7 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 \openout4 = `python-coding-workshop.vrb'.
 
  (./python-coding-workshop.vrb
-<ProgrammingFlow.pdf, id=501, 796.9775pt x 597.23125pt>
+<ProgrammingFlow.pdf, id=542, 796.9775pt x 597.23125pt>
 File: ProgrammingFlow.pdf Graphic file (type pdf)
 <use ProgrammingFlow.pdf>
 Package pdftex.def Info: ProgrammingFlow.pdf  used on input line 3.
@@ -943,7 +943,7 @@ LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 ) (./install-commands.txt) [9
 
 ]
-<idle.png, id=710, 585.18625pt x 602.25pt>
+<idle.png, id=766, 585.18625pt x 602.25pt>
 File: idle.png Graphic file (type png)
 <use idle.png>
 Package pdftex.def Info: idle.png  used on input line 25.
@@ -953,142 +953,172 @@ Package pdftex.def Info: idle.png  used on input line 25.
  <./idle.png>]) (./CoverSnippets.tex [11
 
 ])
-(./Python3Hello.tex
+(./VariablesSize.tex
 \openout4 = `python-coding-workshop.vrb'.
 
- (./python-coding-workshop.vrb
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-) (../py-hello.py)) [12
-
-]
-\openout4 = `python-coding-workshop.vrb'.
-
- (./python-coding-workshop.vrb (../py-hello.py)) [13
-
-]) (./Python3IO.tex
-\openout4 = `python-coding-workshop.vrb'.
-
-
-(./python-coding-workshop.vrb (../py-basic-io.py)) [14
-
-]
-\openout4 = `python-coding-workshop.vrb'.
-
-
-(./python-coding-workshop.vrb (../py-file-io.py) (../py-file-io.py)) [15
-
-])
-(./Python3ForWhile.tex
-\openout4 = `python-coding-workshop.vrb'.
-
- (./python-coding-workshop.vrb (../py-loop.py)) [16
-
-]
-\openout4 = `python-coding-workshop.vrb'.
-
-
-(./python-coding-workshop.vrb (../py-loop.py)) [17
-
-]
-\openout4 = `python-coding-workshop.vrb'.
-
-
-(./python-coding-workshop.vrb (../py-while.py)) [18
-
-]
-\openout4 = `python-coding-workshop.vrb'.
-
-
-(./python-coding-workshop.vrb (../py-precise-loop.py)) [19
-
-])
-(./CoverApplications.tex [20
-
-]) (./TheTools.tex
-\openout4 = `python-coding-workshop.vrb'.
-
- (./python-coding-workshop.vrb)
-[21
-
-]
-\openout4 = `python-coding-workshop.vrb'.
-
- (./python-coding-workshop.vrb) [22
-
-]
-\openout4 = `python-coding-workshop.vrb'.
-
- (./python-coding-workshop.vrb
-(../py-matplotlib.py)) [23
-
-]
-\openout4 = `python-coding-workshop.vrb'.
-
- (./python-coding-workshop.vrb) [24
-
-]
-\openout4 = `python-coding-workshop.vrb'.
-
-
-(./python-coding-workshop.vrb) [25
-
-]
-\openout4 = `python-coding-workshop.vrb'.
-
- (./python-coding-workshop.vrb
-(../py-numba-cuda.py)) [26
-
-]
-\openout4 = `python-coding-workshop.vrb'.
-
- (./python-coding-workshop.vrb
-<dev-numba.png, id=1740, 1054.94125pt x 996.72375pt>
-File: dev-numba.png Graphic file (type png)
-<use dev-numba.png>
-Package pdftex.def Info: dev-numba.png  used on input line 8.
-(pdftex.def)             Requested size: 153.64493pt x 145.1524pt.
-)
-Overfull \vbox (3.8015pt too high) detected at line 117
- []
-
-[27
-
- <./dev-numba.png>]
-\openout4 = `python-coding-workshop.vrb'.
-
- (./python-coding-workshop.vrb (../py-numba-cuda-mxm.py)) [28
-
-]) (./Python3-FDM.tex
-\openout4 = `python-coding-workshop.vrb'.
-
- (./python-coding-workshop.vrb
-(../fdm-py/1D-heat-numba.py)) [29
-
-]
-\openout4 = `python-coding-workshop.vrb'.
-
- (./python-coding-workshop.vrb
-(../fdm-py/1D-heat-numba.py)) [30
-
-]) (./Python3MonteCarlo.tex
-\openout4 = `python-coding-workshop.vrb'.
-
-
-(./python-coding-workshop.vrb (../py-MonteCarlo.py)) [31
-
-]
-\openout4 = `python-coding-workshop.vrb'.
-
-
-(./python-coding-workshop.vrb (../py-MonteCarlo.py)) [32
+ (./python-coding-workshop.vrb) [12
 
 ]
 \openout4 = `python-coding-workshop.vrb'.
 
 
 (./python-coding-workshop.vrb
-<numba-vs-normal.png, id=2109, 1478.52374pt x 607.26875pt>
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(../py-number.py)) [13
+
+]
+\openout4 = `python-coding-workshop.vrb'.
+
+ (./python-coding-workshop.vrb
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+) (../datasize.c)) [14
+
+]
+\openout4 = `python-coding-workshop.vrb'.
+
+ (./python-coding-workshop.vrb) [15
+
+]) (./Python3Hello.tex
+\openout4 = `python-coding-workshop.vrb'.
+
+
+(./python-coding-workshop.vrb (../py-hello.py)) [16
+
+]
+\openout4 = `python-coding-workshop.vrb'.
+
+
+(./python-coding-workshop.vrb (../py-hello.py)) [17
+
+]) (./Python3IO.tex
+\openout4 = `python-coding-workshop.vrb'.
+
+
+(./python-coding-workshop.vrb (../py-basic-io.py)) [18
+
+]
+\openout4 = `python-coding-workshop.vrb'.
+
+
+(./python-coding-workshop.vrb (../py-file-io.py) (../py-file-io.py)) [19
+
+])
+(./Python3ForWhile.tex
+\openout4 = `python-coding-workshop.vrb'.
+
+ (./python-coding-workshop.vrb (../py-loop.py)) [20
+
+]
+\openout4 = `python-coding-workshop.vrb'.
+
+
+(./python-coding-workshop.vrb (../py-loop.py)) [21
+
+]
+\openout4 = `python-coding-workshop.vrb'.
+
+
+(./python-coding-workshop.vrb (../py-while.py)) [22
+
+]
+\openout4 = `python-coding-workshop.vrb'.
+
+
+(./python-coding-workshop.vrb (../py-precise-loop.py)) [23
+
+])
+(./CoverApplications.tex [24
+
+]) (./TheTools.tex
+\openout4 = `python-coding-workshop.vrb'.
+
+ (./python-coding-workshop.vrb)
+[25
+
+]
+\openout4 = `python-coding-workshop.vrb'.
+
+ (./python-coding-workshop.vrb) [26
+
+]
+\openout4 = `python-coding-workshop.vrb'.
+
+ (./python-coding-workshop.vrb
+(../py-matplotlib.py)) [27
+
+]
+\openout4 = `python-coding-workshop.vrb'.
+
+ (./python-coding-workshop.vrb) [28
+
+]
+\openout4 = `python-coding-workshop.vrb'.
+
+
+(./python-coding-workshop.vrb) [29
+
+]
+\openout4 = `python-coding-workshop.vrb'.
+
+ (./python-coding-workshop.vrb
+(../py-numba-cuda.py)) [30
+
+]
+\openout4 = `python-coding-workshop.vrb'.
+
+ (./python-coding-workshop.vrb
+<dev-numba.png, id=2140, 1054.94125pt x 996.72375pt>
+File: dev-numba.png Graphic file (type png)
+<use dev-numba.png>
+Package pdftex.def Info: dev-numba.png  used on input line 8.
+(pdftex.def)             Requested size: 153.64493pt x 145.1524pt.
+)
+Overfull \vbox (3.8015pt too high) detected at line 113
+ []
+
+[31
+
+ <./dev-numba.png>]
+\openout4 = `python-coding-workshop.vrb'.
+
+ (./python-coding-workshop.vrb (../py-numba-cuda-mxm.py)) [32
+
+]) (./Python3-FDM.tex
+\openout4 = `python-coding-workshop.vrb'.
+
+ (./python-coding-workshop.vrb
+(../fdm-py/1D-heat-numba.py)) [33
+
+]
+\openout4 = `python-coding-workshop.vrb'.
+
+ (./python-coding-workshop.vrb
+(../fdm-py/1D-heat-numba.py)) [34
+
+]) (./Python3MonteCarlo.tex
+\openout4 = `python-coding-workshop.vrb'.
+
+
+(./python-coding-workshop.vrb (../py-MonteCarlo.py)) [35
+
+]
+\openout4 = `python-coding-workshop.vrb'.
+
+
+(./python-coding-workshop.vrb (../py-MonteCarlo.py)) [36
+
+]
+\openout4 = `python-coding-workshop.vrb'.
+
+
+(./python-coding-workshop.vrb
+<numba-vs-normal.png, id=2539, 1478.52374pt x 607.26875pt>
 File: numba-vs-normal.png Graphic file (type png)
 <use numba-vs-normal.png>
 Package pdftex.def Info: numba-vs-normal.png  used on input line 5.
@@ -1098,9 +1128,22 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--6
  [] 
  []
 
-) [33
+) [37
 
- <./numba-vs-normal.png>]) (./templateEnd.tex [34
+ <./numba-vs-normal.png>]) (./pandas-special.tex
+\openout4 = `python-coding-workshop.vrb'.
+
+
+(./python-coding-workshop.vrb (../py-sort-list.py)) [38
+
+]
+\openout4 = `python-coding-workshop.vrb'.
+
+
+(./python-coding-workshop.vrb (../fdm-py/1D-heat-numba-pandas.py)) [39
+
+])
+(./templateEnd.tex [40
 
 ])
 \tf@nav=\write6
@@ -1112,28 +1155,27 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--6
 \tf@snm=\write8
 \openout8 = `python-coding-workshop.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
-
-(./python-coding-workshop.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 192.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 201.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 201.
+ (./python-coding-workshop.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 201.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 201.
 Package rerunfilecheck Info: File `python-coding-workshop.out' has not changed.
 
-(rerunfilecheck)             Checksum: 72495F15CF934447EF1E2229A7753C88;367.
+(rerunfilecheck)             Checksum: 1E89A09560E8B09A3DDE16C98E9B7AA5;367.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 19098 strings out of 494880
- 353270 string characters out of 6179602
- 685806 words of memory out of 5000000
- 21777 multiletter control sequences out of 15000+600000
+ 19383 strings out of 494880
+ 356730 string characters out of 6179602
+ 688537 words of memory out of 5000000
+ 22015 multiletter control sequences out of 15000+600000
  20421 words of font info for 76 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 48i,20n,60p,789b,1333s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,20n,60p,789b,1276s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texliv
@@ -1148,10 +1190,10 @@ cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on python-coding-workshop.pdf (34 pages, 1135307 bytes).
+Output written on python-coding-workshop.pdf (40 pages, 1163955 bytes).
 PDF statistics:
- 2299 PDF objects out of 2487 (max. 8388607)
- 2161 compressed objects within 22 object streams
- 75 named destinations out of 1000 (max. 500000)
+ 2877 PDF objects out of 2984 (max. 8388607)
+ 2722 compressed objects within 28 object streams
+ 87 named destinations out of 1000 (max. 500000)
  169 words of extra memory for PDF output out of 10000 (max. 10000000)
 

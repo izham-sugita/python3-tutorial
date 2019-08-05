@@ -3,27 +3,15 @@ import pandas as pd
 survey = pd.read_csv("survey.csv")
 register = pd.read_csv("register.csv")
 
-#print(survey.index)
-#print(register.index)
-
 survey_Col = survey.columns
 survey_Val = survey.values
-
-#print(survey_Col)
-#print(survey_Val)
-
 
 for str in survey_Col:
     if str == 'Username':
         email = str
 
-#print(email)
-#print(survey[email])
-
 elistsurvey = survey[email].tolist()
 elistregistered = register[email].tolist()
-#print(len(elistregistered))
-#print(len(elistsurvey))
 
 totalreg = len(elistregistered)
 totalsur = len(elistsurvey)
@@ -33,7 +21,6 @@ dup = []
 for n1 in elistregistered:
     for n2 in elistsurvey:
         if n1 == n2:
-            #print(n2)
             dup.append(n2)
 
 totaldup = len(dup)
