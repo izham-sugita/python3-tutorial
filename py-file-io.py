@@ -10,4 +10,10 @@ for animal in anim_list:
     fo.write(animal+"\n")
 
 fo.close()
-    
+print()
+
+fo = open("test.txt","r")
+str = fo.read()
+fo.close()
+print()
+print(str)
